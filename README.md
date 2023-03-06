@@ -6,8 +6,8 @@ Aplicativo faz busca em API https://rickandmortyapi.com/, e retorna lista de per
 
 ## Objective:
 Colocar em pratica conhecimentos como TDD na construção dos usecases e testes, gerencia de estado com Bloc e busca em API Rest com retorno dos dados com paginação. 
-Tambem foi implementado uma busca por nome, que retorna os dados filtrados.
-Na construção do bloc foi preferivel usar apenas 3 estados para gerenciar o App.
+Também foi implementado uma busca por nome, que retorna os dados filtrados.
+Na construção do Bloc foi preferível usar apenas 3 estados para gerenciar o App.
 
 ## Result:
 
