@@ -1,7 +1,7 @@
-# Fetch Characters UseCases
+# Fetch Characters UseCase
 
 > ## Caso de sucesso
-1. Sistem faz uma chamada para a URL  da API  de login
+1. Sistem faz uma chamada para a URL  da API  de Characters
 2. Sistema valida os dados de resposta da API
 3. Sistema entrega os dados da lista de personagens buscados
 
