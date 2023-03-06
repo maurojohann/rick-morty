@@ -1,16 +1,32 @@
-# pagination_challenge
+# Pagination_challenge
 
-A new Flutter project.
+## The Project:
 
-## Getting Started
+Aplicativo faz busca em API https://rickandmortyapi.com/, e retorna lista de personagens paginado.
 
-This project is a starting point for a Flutter application.
+## Objective:
+Colocar em pratica conhecimentos como TDD na construção dos usecases e testes, gerencia de estado com Bloc e busca em API Rest com retorno dos dados com paginação. 
+Tambem foi implementado uma busca por nome, que retorna os dados filtrados.
+Na construção do bloc foi preferivel usar apenas 3 estados para gerenciar o App.
 
-A few resources to get you started if this is your first Flutter project:
+## Result:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_1678124983](https://user-images.githubusercontent.com/15696360/223192439-2adc6e61-b0ed-4fd6-b646-2243c0ea6151.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tests
+
+![image](https://user-images.githubusercontent.com/15696360/223193177-65924d32-bcde-4815-a7f4-d698956d9406.png)
+  
+## Features:
+
+* Clean architecture;
+* Bloc state managed;
+
+## Dependencies:
+
+Flutter version: 3.7.0
+
+Packages:
+  * flutter_bloc:
+  * http:
+  * get_it:
